@@ -1,0 +1,58 @@
+
+.subTitles h2 {
+  color: #D2691E;
+  text-transform: capitalize;
+  text-align: center;
+  }
+
+img.photoBackG {
+  width: 1425px;
+  height: auto;
+  position: relative;
+  content: 100em;
+}
+
+
+header.photoBackG > h1 {
+  font-family: fantasy;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  content > align-self: top;
+}
+
+/*
+#aboutMe{
+  text-align: center;
+  background-image: url('/Users/tech-a48/Documents/My_CV/img/MyPhoto.png');
+  width: 1425px;
+  height: auto;
+  position: relative;;
+  margin-bottom: 100px;
+  padding-bottom: 362px;
+}
+
+#aboutme > h1 {
+
+}
+
+
+Main photo on top with some infomation about me
+head > header > h1 {
+  margin: 10px;
+  font-family: Aldrich-regular;
+  padding-top: : -30px;
+  padding-bottom: 140px;
+  font-size: 100px;
+  margin-top: -20px;;
+}
+*/
+
+
+
+
+/**
+.subTitles {
+  background-color:	#F0E68C;
+}
+**/
