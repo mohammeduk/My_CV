@@ -1,58 +1,167 @@
 
-.subTitles h2 {
-  color: #D2691E;
-  text-transform: capitalize;
+body {
+    background-image: url('/Users/tech-a48/Documents/My_CV_4/img/world-in-orange-wallpaper.jpg');
+    background-size: 1440px 900px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+header {
+  padding: 0;
+  /*background-color: #14233C;*/
+  width: 50px;
+  color: #fff;
+}
+
+
+.fillerOne {
+  display: inline-block;
+  height: 270px;
+  width: 1440px;
+  float:left;
+  /*overflow: hidden;*/
+}
+
+/* Name Div */
+.fillerTwo {
+  display: inline-block;
+  height: 100px;
+  width: 432px;
+  float:left;
+}
+
+.myName {
+  display: inline-block;
+  float: left;
+  height: 100px;
+  width: 576px;
+
+  font-family: 'Arapey', serif;
+  font-size: 25px;
   text-align: center;
-  }
-
-img.photoBackG {
-  width: 1425px;
-  height: auto;
-  position: relative;
-  content: 100em;
+  color: #fff;
 }
 
+.fillerThree {
+  display: inline-block;
+  float: left;
+  height: 100px;
+  width: 432px;
+  float:left;
+}
 
-header.photoBackG > h1 {
-  font-family: fantasy;
-  font-size: 50px;
-  font-weight: bolder;
+.fillerFour {
+  display: inline-block;
+  float: left;
+  height: 120px;
+  width: 432px;
+  float:left;
+}
+
+.fillerFive {
+  display: inline-block;
+  float: left;
+  height:400px;
+  width: 1440px;
+  float:left;
+}
+
+#para {
+  color: #fff;
   text-align: center;
-  content > align-self: top;
 }
 
-/*
-#aboutMe{
+
+.bio {
+  display: inline-block;
+  height: 270px;
+  width: 1440px;
+  float:left;
+  font-family: 'Arapey', serif;
+  font-size: 22px;
   text-align: center;
-  background-image: url('/Users/tech-a48/Documents/My_CV/img/MyPhoto.png');
-  width: 1425px;
-  height: auto;
-  position: relative;;
-  margin-bottom: 100px;
-  padding-bottom: 362px;
+  color: #fff;
 }
 
-#aboutme > h1 {
+.scrollOne {
+  display: inline-block;
+  height: 110px;
+  width: 680px;
+  float:left;
+}
+
+.scrollTwo {
+  display: inline-block;
+  height: 110px;
+  width: 80px;
+  float:left;
 
 }
 
+.scrollThree {
+  display: inline-block;
+  height: 110px;
+  width: 680px;
+  float:left;
 
-Main photo on top with some infomation about me
-head > header > h1 {
-  margin: 10px;
-  font-family: Aldrich-regular;
-  padding-top: : -30px;
-  padding-bottom: 140px;
-  font-size: 100px;
-  margin-top: -20px;;
 }
-*/
 
-
+.clear {
+  clear: both;
+}
 
 
 /**
-.subTitles {
-  background-color:	#F0E68C;
+ * Social Media Icons Styling
+ **/
+
+/* Resets default styling */
+.social-media-icons {
+
+    margin 0;
+    padding: 0;
 }
-**/
+
+/* Displays the list-items in a row */
+.social-media-icons li {
+    /*display: inline-block;*/
+
+}
+
+/* Set up the social media icons and enable transitioning for a smooth hovering effect */
+.social-media-icons a {
+    display: block;
+    height: 58px;
+    transition: all 350ms ease-out;
+    -webkit-transition: all 350ms ease-out;
+    -o-transition: all 350ms ease-out;
+    width: 30px;
+    /*background-color: red;*/
+    color: white;
+    padding-left: 10px;
+}
+
+.twitter {
+  margin-bottom: -30px;
+}
+
+.linkedin {
+  margin-bottom: -10px;
+
+}
+
+.social-media-icons a:hover {
+    background-position-y: 2px; /* Bonus image movement, no support by Firefox and Opera. Requires images with similar y position. */
+    filter: alpha(opacity=80); /* Fallback for older versions of IE */
+    opacity: 0.8;
+}
