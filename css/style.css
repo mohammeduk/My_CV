@@ -57,13 +57,12 @@ header {
   float: left;
   height: 100px;
   width: 432px;
-  float:left;
 }
 
 .fillerFour {
   display: inline-block;
   float: left;
-  height: 120px;
+  height: 80px;
   width: 432px;
   float:left;
 }
@@ -71,20 +70,136 @@ header {
 .fillerFive {
   display: inline-block;
   float: left;
-  height:400px;
+  height:2100px;
   width: 1440px;
-  float:left;
 }
 
-#para {
+.fillerSix {
+  display: table;
+  float: left;
+  height:200px;
+  width: 1440px;
+}
+
+.crapbag {
+  position: sticky;
+  display: table-cell;
+  vertical-align: middle;
+  align: center;
+}
+
+
+
+#cvId {
+  display: inline-block;
+  /*height: 250px;*/
+  width: 1440px;
+  float:left;
+  font-family: 'Arapey', serif;
+  font-size: 70px;
+  text-align: center;
+  /*vertical-align: middle;
+  align-self: center;*/
+  color: #fff;
+}
+
+.fillerSevenMother {
+  display: table;
+  height:150px;
+  width: 1440px;
+  /*background-color: orange;*/
+  /*opacity: 0.6;*/
+  /*display: inline-block;*/
+}
+
+.fillerSevenSon {
+  display: inline-block;
+  float: left;
+  height: 150px;
+  width: 440px;
+}
+
+#fillerSevenMotherTitle {
+  width: 1440px;
+
+  font-family: 'Arapey', serif;
+  font-size: 38px;
   color: #fff;
   text-align: center;
 }
 
+.edTit {
+  font-family: 'Arapey', serif;
+  font-size: 30px;
+  color: #fff;
+  text-align: right;
+
+}
+
+.edDesc {
+  font-family: 'Arapey', serif;
+  font-size: 30px;
+  color: #fff;
+  text-align: left;
+}
+
+.fillerSevenDaughter {
+  display: inline-block;
+  float: left;
+  height:150px;
+  width: 1000px;
+  font-family: 'Arapey', serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+.line-separator  {
+  height:1px;
+  background:#fff;
+  border-bottom:1px solid #fff;
+  width: 22%;
+  align-self: center;
+  margin-left: 90px;
+  opacity: 0.7;
+  float: left;
+  }
+
+.line-separatorTwo  {
+  height:1px;
+  background:#fff;
+  border-bottom:1px solid #fff;
+  width: 60%;
+  align-self: center;
+  margin-left: 30px;
+  opacity: 0.7;
+  float: left;
+  }
+
+.fillerSevenGrandsonOne {
+  height: 60px;
+  float: left;
+  width: 440px;
+}
+
+.fillerSevenGrandsonTwo h3{
+  height: 30px;
+  float: left;
+  width: 440px;
+  margin:0;
+
+}
+
+.insName {
+  font-family: 'Arapey', serif;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
 
 .bio {
   display: inline-block;
-  height: 270px;
+  height: 250px;
   width: 1440px;
   float:left;
   font-family: 'Arapey', serif;
@@ -105,15 +220,32 @@ header {
   height: 110px;
   width: 80px;
   float:left;
-
 }
+
+/*Button*/
+
+.icogv {
+  color: white;
+  display: inline-block;
+  height: 110px;
+  width: 80px;
+  transition: all 350ms ease-out;
+  -webkit-transition: all 350ms ease-out;
+  -o-transition: all 350ms ease-out;
+}
+
+.icogv:hover {
+  background-position-y: 2px; /* Bonus image movement, no support by Firefox and Opera. Requires images with similar y position. */
+  filter: alpha(opacity=80); /* Fallback for older versions of IE */
+  opacity: 0.5;
+}
+
 
 .scrollThree {
   display: inline-block;
   height: 110px;
   width: 680px;
   float:left;
-
 }
 
 .clear {
@@ -127,28 +259,26 @@ header {
 
 /* Resets default styling */
 .social-media-icons {
-
     margin 0;
     padding: 0;
 }
 
 /* Displays the list-items in a row */
-.social-media-icons li {
-    /*display: inline-block;*/
-
-}
+/*.social-media-icons li {
+  display: inline-block;*
+}*/
 
 /* Set up the social media icons and enable transitioning for a smooth hovering effect */
 .social-media-icons a {
-    display: block;
-    height: 58px;
-    transition: all 350ms ease-out;
-    -webkit-transition: all 350ms ease-out;
-    -o-transition: all 350ms ease-out;
-    width: 30px;
-    /*background-color: red;*/
-    color: white;
-    padding-left: 10px;
+  display: block;
+  height: 58px;
+  transition: all 350ms ease-out;
+  -webkit-transition: all 350ms ease-out;
+  -o-transition: all 350ms ease-out;
+  width: 30px;
+  /*background-color: red;*/
+  color: white;
+  padding-left: 10px;
 }
 
 .twitter {
@@ -157,11 +287,10 @@ header {
 
 .linkedin {
   margin-bottom: -10px;
-
 }
 
 .social-media-icons a:hover {
-    background-position-y: 2px; /* Bonus image movement, no support by Firefox and Opera. Requires images with similar y position. */
-    filter: alpha(opacity=80); /* Fallback for older versions of IE */
-    opacity: 0.8;
+  background-position-y: 2px; /* Bonus image movement, no support by Firefox and Opera. Requires images with similar y position. */
+  filter: alpha(opacity=80); /* Fallback for older versions of IE */
+  opacity: 0.8;
 }
