@@ -87,9 +87,20 @@ header {
   align: center;
 }
 
-
-
 #cvId {
+  display: inline-block;
+  /*height: 250px;*/
+  width: 1440px;
+  float:left;
+  font-family: 'Arapey', serif;
+  font-size: 70px;
+  text-align: center;
+  /*vertical-align: middle;
+  align-self: center;*/
+  color: #fff;
+}
+
+#cvId2 {
   display: inline-block;
   /*height: 250px;*/
   width: 1440px;
@@ -203,7 +214,7 @@ header {
 
 .fillerEightContain {
   display:inline-block;
-  height: 780px;
+  height: 800px;
   width: 1440px;
 }
 
@@ -372,6 +383,7 @@ header {
 /*Button*/
 
 .icogv {
+  opacity: 0.6;
   color: white;
   display: inline-block;
   height: 110px;
