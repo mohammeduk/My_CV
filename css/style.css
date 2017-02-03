@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url('/Users/tech-a48/Documents/My_CV_4/img/world-in-orange-wallpaper.jpg');
+    background-image: url('/My_CV_4/img/world-in-orange-wallpaper.jpg');
      background-size:contain;
      background-position:center;
     background-size: 1440px 900px;
@@ -76,7 +76,7 @@ header {
   /*float: left;*/
   height: 100px;
   width: 432px;
-  margin-left: 432px;
+  margin-left: 1008px;
 }
 
 .fillerFour {
