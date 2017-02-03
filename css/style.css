@@ -1,6 +1,17 @@
+@media screen and (max-width: 360px) and (min-width: 640px) {
+  .twitter {
+    display: none;
+  }
+}
+
+#topPage {
+  width: auto;
+}
 
 body {
     background-image: url('/Users/tech-a48/Documents/My_CV_4/img/world-in-orange-wallpaper.jpg');
+     background-size:contain;
+     background-position:center;
     background-size: 1440px 900px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -9,7 +20,7 @@ body {
 }
 
 
-.fixed {
+.containerOne {
   position: fixed;
   top: 0;
   left: 0;
@@ -25,43 +36,52 @@ header {
 
 
 .fillerOne {
+  position: relative;
   display: inline-block;
-  height: 270px;
+  height: 370px;
   width: 1440px;
   float:left;
+
   /*overflow: hidden;*/
 }
 
 /* Name Div */
 .fillerTwo {
+  position: absolute;
+  bottom: 0;
   display: inline-block;
   height: 100px;
   width: 432px;
-  float:left;
+  /*float:left;*/
 }
 
 .myName {
+  position: absolute;
+  bottom: 0;
   display: inline-block;
-  float: left;
+  /*float: left;*/
   height: 100px;
   width: 576px;
-
   font-family: 'Arapey', serif;
   font-size: 25px;
   text-align: center;
   color: #fff;
+  margin-left: 432px;
 }
 
 .fillerThree {
+  position: absolute;
+  bottom: 0;
   display: inline-block;
-  float: left;
+  /*float: left;*/
   height: 100px;
   width: 432px;
+  margin-left: 432px;
 }
 
 .fillerFour {
   display: inline-block;
-  float: left;
+  /*float: left;*/
   height: 80px;
   width: 1440px;
 }
